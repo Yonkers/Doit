@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:tag="back">
+
+        <Button
+                android:id="@+id/example_row_b_action_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="open"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/front"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:tag="front">
+
+        <TextView
+                android:id="@+id/isNew"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:background="@android:color/holo_blue_bright"
+                android:gravity="center"
+                android:minWidth="80dp"
+                android:text="复习"
+                android:textSize="28sp">
+        </TextView>
+
+        <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_toRightOf="@id/isNew"
+                android:gravity="center_vertical"
+                android:text="音标学习004"
+                android:textSize="28sp">
+        </TextView>
+    </RelativeLayout>
+
+</FrameLayout>

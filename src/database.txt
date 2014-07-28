@@ -1,0 +1,19 @@
+for everyday:
+	1.list tasks for each event;
+	2.record each task status:Done or Not;
+	3.you can go to see anyday's tasks,and also their status;
+	
+	for one task,you should review it in 3days, 7days, 15days, 30days
+	
+	here is the table for recording the information mentioned above:
+	
+	table name: day_tasks_record
+	__________________________________________
+	| task_id | status |    day   | day_step |
+	|    1	  |  done  | 13-12-24 |    3th   |
+	|_________|________|__________|__________|
+	
+	in a certain time everyday,update this table;
+	if you have finished this task,update status to done;
+	
+	

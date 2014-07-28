@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/front"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:id="@+id/step_layout"
+            android:layout_width="80dp"
+            android:layout_height="match_parent">
+
+
+
+        <com.yong.doit.ui.widget.RoundStepView
+                android:id="@+id/road_step"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="80dp"
+                android:minWidth="80dp"/>
+        <ImageView
+                android:layout_width="10dp"
+                android:background="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@id/step_layout"
+            android:gravity="center_vertical"
+            android:text="音标学习004"
+            android:textSize="28sp"/>
+
+    <LinearLayout
+            android:id="@+id/desc_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_alignLeft="@id/name"
+            android:layout_below="@id/step_layout"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:text="音标学习004"
+                android:textSize="24sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

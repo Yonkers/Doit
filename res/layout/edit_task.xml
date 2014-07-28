@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_left"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="添加今日任务"
+            android:textSize="18sp"/>
+
+    <EditText
+            android:id="@+id/taskName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="任务名称"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+    <Spinner
+            android:id="@+id/belongEvent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:spinnerMode="dropdown"
+            android:textSize="18sp"/>
+
+    <EditText
+            android:id="@+id/taskNote"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="说明"
+            android:minLines="2"/>
+
+    <Button
+            android:id="@+id/btnSave"
+            android:text="保存"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

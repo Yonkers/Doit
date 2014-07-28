@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+    <LinearLayout
+            android:id="@+id/layout_left"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="80dp">
+
+        <TextView
+                android:id="@+id/eventMode"
+                android:layout_width="60dp"
+                android:layout_height="0dp"
+                android:background="@android:color/holo_blue_dark"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:minWidth="80dp"
+                android:text="进度"
+                android:textSize="28sp">
+        </TextView>
+
+        <ProgressBar
+                android:id="@+id/eventProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="60"
+                android:progressDrawable="@drawable/progress_style"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@id/layout_left"
+            android:gravity="center_vertical"
+            android:text="a day in life "
+            android:textSize="28sp">
+    </TextView>
+
+</RelativeLayout>

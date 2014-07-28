@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/head_rect_bound"
+                android:scaleType="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yonkers"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/menuAllEvents"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_item_selectoor"
+            android:text="所有事件"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/menuDayTasks"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_item_selectoor"
+            android:text="今日任务"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/menuMyHorner"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_item_selectoor"
+            android:text="我的成就"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/menuSetting"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_item_selectoor"
+            android:text="设置"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/menuStudyRecord"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_item_selectoor"
+            android:text="学习记录"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:background="@drawable/menu_item_selectoor"
+            android:orientation="horizontal" >
+			<com.yong.doit.ui.widget.RoundStepView
+			    android:layout_width="50dp"
+			    android:layout_height="40dp" />
+            <Button
+                android:id="@+id/menuCourseList"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:text="课程概览"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
