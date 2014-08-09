@@ -10,6 +10,14 @@
         <option name="packageNamePattern" value="com.yong.doit" />
         <option name="pid" value="" />
       </filter>
+      <filter>
+        <option name="name" value="app: com.bmob.im.demo" />
+        <option name="packageNamePattern" value="com.bmob.im.demo" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.yong.doit" />
+        <option name="packageNamePattern" value="com.yong.doit" />
+      </filter>
     </filters>
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
@@ -23,10 +31,348 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="doit" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.yong.doit" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8932dacd-b008-42f0-ae99-75df58855adb" name="Default" comment="" />
+    <list default="true" id="8932dacd-b008-42f0-ae99-75df58855adb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/Bmob_IMSDK_v1.0.9beta.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/about_bottom_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/about_mid_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/about_top_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/baidumapapi_v3_0_0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_add_bg_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_add_bg_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_back_bg_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_back_bg_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_more_bg_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_more_bg_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_true_bg_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_action_bar_true_bg_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_comment_emo_bar.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/base_dialog_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_edit_input.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/base_horization_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/base_horizontal_line.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/base_horizontal_line_red.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_chat_emote_selector.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bmob_v3.1.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_login_n.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_login_p.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_logout_n.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_logout_p.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_send_n.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_send_press.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_camera_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_camera_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_location_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_location_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_picture_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_picture_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_add_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_emo_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_emo_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_fail_resend_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_fail_resend_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_icon_voice_short.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_keyboard_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_keyboard_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_left_qp.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_right_qp.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_send_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_send_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_time_block.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_top_voice_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_voice_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/chat_voice_bg_press.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_voice_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chat_voice_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/contact_list_buddy_item_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/default_head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/emo_delete_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/emo_delete_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_contact_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_contact_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_geo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_message_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_message_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_msg_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_near.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_set_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_set_press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/input_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/armeabi-v7a/libBaiduMapSDK_v3_0_0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/armeabi-v7a/liblocSDK4d.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_conversation_press.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/list_newmessage2.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/locSDK_4.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/location_default.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/login_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/login_icon_account.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/login_icon_password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/login_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/msg_tips.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/new_friends_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/notify.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/photoview-library-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/pop_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/pop_bg_press.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/refresh_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/register_bottom_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/search_clear_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/search_clear_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/top_bar.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue00e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue056.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue057.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue058.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue059.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue105.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue106.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue107.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue108.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue11a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue401.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue402.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue403.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue405.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue406.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue407.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue408.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue409.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue40a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue40b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue40c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue40d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue40e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue40f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue410.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue411.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue412.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue413.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue414.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue415.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue416.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue417.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue418.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue41f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ue421.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/universal-image-loader-1.9.2_sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/user_add_top_bg.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_left1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_left2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_left3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_right1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_right2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/voice_right3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Bmob_IMSDK_v1_0_9beta__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/DoitMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_add_contact.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_blacklist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_chat.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_location.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_near_people.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_new_friend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_register.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_set_info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_set_updateinfo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_showpicture.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_splash.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/anim_chat_voice_left.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/anim_chat_voice_right.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/baidumapapi_v3_0_0__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/base_action_bar_add_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/base_action_bar_back_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/base_action_bar_more_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/base_action_bar_true_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bmob_v3_1_8__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_add_camera_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_add_location_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_add_picture_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_add_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_emo_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_fail_resend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_keyboard_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_record_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_send_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_chat_voice_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_emo_delete_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_emote_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_login_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_logout_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_send_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_normal_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_selector_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_header_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_header_rightbutton.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_btn_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_shape_normal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dialog_shape_pressed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_contacts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_recent.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_set.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_left_enter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_left_exit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_right_enter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fragment_slide_right_exit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/grow_from_bottom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/include_action_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/include_chat_add.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/include_chat_bottom_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/include_chat_voice_short.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/include_emo_gridview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/include_new_friend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/ios7_btn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_add_friend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_blacklist.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_received_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_received_location.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_received_message.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_received_voice.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_sent_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_sent_location.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_sent_message.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_chat_sent_voice.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_conversation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_face_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_near_people.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_show_picture.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/item_user_friend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/locSDK_4_2__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/photoview_library_1_2_2__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/pop_showavator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/progress_black.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/recent_message_text_color_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/recent_name_text_color_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/search_clear.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/shrink_from_top.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_contact_btn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_message_btn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_set_btn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/tab_textcolor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_2_sources__2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/v2_dialog_base.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/v2_gallery_contacts_dialog_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/v2_sortlistview_sidebar_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/xlistview_footer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/xlistview_header.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/app/Cst.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/app/DoApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/app/EventMode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/app/PeriodType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/dao/DataHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/data/EventProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/data/bean/Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/data/bean/EventType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/data/bean/ProgressIdentify.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/data/bean/RoadMapItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/data/bean/Task.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/explorer/ChoosePDFActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/explorer/ChoosePDFAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/explorer/ChoosePDFItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/notify/TaskTimeReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/Annotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/ArrayDeque.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/BitmapHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/Deque.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/LinkInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/LinkInfoExternal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/LinkInfoInternal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/LinkInfoRemote.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/LinkInfoVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/MuPDFAlert.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/MuPDFAlertInternal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/MuPDFCore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/OutlineItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/PageFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/PassClickResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/PassClickResultChoice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/PassClickResultText.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/PassClickResultVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/PdfReaderActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/ReaderPageFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/ScrollPageAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/TextChar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/TextWord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/WebPageFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/pdf/WidgetType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/service/EventService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/service/ProgressIdentifyService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/service/TaskService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/BaseActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/AddProgressIdentifyFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/BaseFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/CourseRoadMapAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/CourseRoadMapFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/CourseRoadmapItemView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/CustomSpinnerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/DayTaskFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/DayTaskListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/EditEventFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/EditTaskFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/ElasticScrollView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/EventListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/EventListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/FragmentMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/MenuFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/NotifyService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/PullListView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/RoundStepView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/SettingFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/SwipeListListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/ui/widget/UIUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/util/DateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/util/SettingsManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/yong/doit/util/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/yong/doit/app/DoApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/BaseFragment.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_doit_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/CourseRoadMapFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/CourseRoadMapFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/dao/DataHelper.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/dao/DataHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doit.iml" afterPath="$PROJECT_DIR$/Doit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditEventFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditEventFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditTaskFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditTaskFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EventListFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EventListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/MenuFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/MenuFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/NotifyService.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/NotifyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/SettingFragment.java" afterPath="$PROJECT_DIR$/src/com/yong/doit/ui/widget/SettingFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Doit.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +389,24 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <line_breakpoints converted="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java" line="71" class="com.yong.doit.pdf.PdfReaderActivity" package="com.yong.doit.pdf">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -79,26 +442,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java" line="71" class="com.yong.doit.pdf.PdfReaderActivity" package="com.yong.doit.pdf">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <breakpoint_rules />
-    <ui_properties />
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -106,101 +451,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChoosePDFActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/explorer/ChoosePDFActivity.java">
+      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="3060">
+            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2204">
+              <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
               <folding>
-                <element signature="e#1451#1476#0" expanded="true" />
-                <element signature="e#1501#1523#0" expanded="true" />
-                <element signature="e#1614#1641#0" expanded="true" />
-                <element signature="e#2272#4430#0" expanded="true" />
-                <element signature="e#2480#2528#0" expanded="true" />
-                <element signature="e#4425#4426#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3344#3345#0" expanded="true" />
+                <element signature="e#3412#3413#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="DoitMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/DoitMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="48" selection-start="620" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1134">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values-zh/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="45" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="1080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="51" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="702">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1153" max-vertical-offset="2090">
+              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding>
-                <element signature="e#414#432#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2378#2379#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PdfReaderActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java">
+      <file leaf-file-name="EditTaskFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditTaskFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="27" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.0" vertical-offset="3624" max-vertical-offset="4014">
+            <state vertical-scroll-proportion="0.63414633" vertical-offset="342" max-vertical-offset="2071">
+              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MuPDFCore.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/pdf/MuPDFCore.java">
+      <file leaf-file-name="activity_doit_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_doit_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5400">
+            <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1121">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DayTaskFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="2242">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <folding>
+                <element signature="e#1373#1730#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mupdf.c" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/mupdf.c">
+      <file leaf-file-name="FragmentBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/FragmentBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="43524">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Core.mk" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/Core.mk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.mk" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jni/Application.mk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Android.mk" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jni/Android.mk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="572" selection-end="572" vertical-scroll-proportion="0.18387909" vertical-offset="377" max-vertical-offset="774">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="3876">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,22 +548,63 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/layout/fragment_day_tasks.xml" />
-        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditEventFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java" />
         <option value="$PROJECT_DIR$/src/com/yong/doit/util/SettingsManager.java" />
-        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values-zh/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/yong/doit/explorer/ChoosePDFActivity.java" />
+        <option value="$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/layout/item_chat_sent_image.xml" />
+        <option value="$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/src/com/bmob/im/demo/config/Config.java" />
+        <option value="$USER_HOME$/Library/Caches/IdeaIC13/compile-server/doit_41f2f6f4/targets/java-production/Doit/android/generated_sources/aapt/com/yong/doit/R.java" />
+        <option value="$PROJECT_DIR$/Doit.iml" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/demo/adapter/base/BaseListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/CustomApplcation.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/MyMessageReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/adapter/AddFriendAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/adapter/BlackListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/adapter/EmoteAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/adapter/MessageChatAdapter.java" />
+        <option value="$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/NotifyService.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/dao/DataHelper.java" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/ui/fragment/ContactFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/SettingFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/CourseRoadMapFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/MenuFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditEventFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/DoitMainActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EventListFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/ui/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/ui/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/ui/FragmentBase.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/bmob/im/demo/ui/ActivityBase.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_doit_main.xml" />
+        <option value="$PROJECT_DIR$/res/anim/fragment_slide_right_enter.xml" />
+        <option value="$PROJECT_DIR$/res/anim/fragment_slide_right_exit.xml" />
+        <option value="$PROJECT_DIR$/res/anim/fragment_slide_left_enter.xml" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/res/anim/fragment_slide_left_exit.xml" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditTaskFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/DoitMain.java" />
+        <option value="$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1369" />
+    <option name="y" value="-290" />
+    <option name="width" value="1914" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -256,8 +619,16 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:android-support-v4)" />
+      <problem id="unused-library(library:project:libs1)" />
+      <problem id="unused-library(library:project:ormlite-android-4.42)" />
+      <problem id="unused-library(library:project:ormlite-core-4.42)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -269,6 +640,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,8 +665,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -294,11 +676,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -308,19 +686,33 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -330,19 +722,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -352,15 +748,27 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -370,41 +778,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="explorer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -414,31 +800,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Doit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,21 +819,63 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xUtils/library" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="1e4b8977" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="4.1-720" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="DEBUGGABLE_DEVICE" value="1e4b8977" />
-    <property name="DEBUGGABLE_PROCESS" value="com.yong.doit" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="218" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="243" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="218" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="243" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/res/layout" />
+      <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.Doit">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <option name="name" value="Go application" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="scriptName" value="" />
+      <option name="scriptArguments" value="" />
+      <option name="builderArguments" value="" />
+      <option name="goBuildBeforeRun" value="false" />
+      <option name="goOutputDir" value="" />
+      <option name="workingDir" value="" />
+      <option name="envVars" value="" />
+      <option name="goVetEnabled" value="false" />
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
@@ -487,6 +899,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -495,6 +908,27 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestConfiguration" factoryName="Go Test">
+      <option name="name" value="Go Test" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <option name="envVars" value="" />
+      <option name="testRunnerArgs" value="" />
+      <option name="testTargetType" value="Package" />
+      <option name="packageName" value="" />
+      <option name="packageDir" value="" />
+      <option name="testFile" value="" />
+      <option name="testArgs" value="" />
+      <option name="workingDir" value="" />
+      <option name="executeWhat" value="Test" />
+      <option name="filter" value="" />
+      <option name="useShortRun" value="false" />
+      <option name="testBeforeBenchmark" value="false" />
+      <option name="goVetEnabled" value="false" />
+      <module name="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -588,6 +1022,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Doit" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -605,14 +1040,38 @@
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Bmob_IMSDK_V1.0.9_Demo" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Bmob_IMSDK_V1.0.9_Demo" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Doit" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.Bmob_IMSDK_V1.0.9_Demo" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -620,6 +1079,14 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8932dacd-b008-42f0-ae99-75df58855adb" name="Default" comment="" />
@@ -649,39 +1116,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="1369" y="-290" width="1914" height="1058" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21709532" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2798288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58934706" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09965636" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26632303" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23743315" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23743315" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18322982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16356108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20962566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -694,59 +1164,19 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/data/EventProvider.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_add_contact.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="1206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/explorer/ChoosePDFItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/notify/TaskTimeReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/explorer/ChoosePDFAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2196">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#986#987#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#1068#1069#0" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fragment_day_tasks.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="-6.827586" vertical-offset="0" max-vertical-offset="468">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1121">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -754,55 +1184,279 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2128">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="1596">
+          <caret line="77" column="129" selection-start-line="6" selection-start-column="4" selection-end-line="77" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2584">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="3686">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="184" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values-sw600dp/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values-sw720dp-land/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values-v11/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/res/values-v14/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/src/com/bmob/im/demo/CustomApplcation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4674">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/MyMessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1976" max-vertical-offset="4313">
+          <caret line="136" column="41" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/adapter/EmoteAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20562771" vertical-offset="0" max-vertical-offset="924">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/adapter/MessageChatAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5681818" vertical-offset="235" max-vertical-offset="8626">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/adapter/AddFriendAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22945571" vertical-offset="450" max-vertical-offset="1748">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doit.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4729194" vertical-offset="2074" max-vertical-offset="3439">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding>
+            <element signature="e#4277#4295#0" expanded="false" />
+            <element signature="e#4444#4462#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/adapter/BlackListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/Bmob_IMSDK_v1.0.9beta.jar!/cn/bmob/im/BmobUserManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34537572" vertical-offset="160" max-vertical-offset="1482">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/CustomApplcation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72833335" vertical-offset="342" max-vertical-offset="5244">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/NotifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/dao/DataHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="2014">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="3629">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="4370">
+          <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/fragment/ContactFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="6802">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+          <folding>
+            <element signature="e#3528#3716#0" expanded="true" />
+            <element signature="e#3709#3710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8828006" vertical-offset="1757" max-vertical-offset="19779">
+          <caret line="195" column="28" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/CourseRoadMapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/CourseRoadMapAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/MenuFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1584">
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="741">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditEventFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/SettingFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="5382">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1998">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="24" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.13170731" vertical-offset="972" max-vertical-offset="1998">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="45" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="2106">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,95 +1465,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="51" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="702">
+        <state vertical-scroll-proportion="0.8273273" vertical-offset="1919" max-vertical-offset="3648">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
-            <element signature="e#414#432#0" expanded="true" />
+            <element signature="e#6004#6022#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dev-tools/android-sdk/sources/android-16/android/app/Activity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/ActivityBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4428" column="16" selection-start="187462" selection-end="187462" vertical-scroll-proportion="0.33254716" vertical-offset="77727" max-vertical-offset="91728">
+        <state vertical-scroll-proportion="0.31811264" vertical-offset="0" max-vertical-offset="1121">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dev-tools/android-sdk/sources/android-16/com/android/internal/os/ZygoteInit.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14040">
+        <state vertical-scroll-proportion="-1.2779503" vertical-offset="1298" max-vertical-offset="3116">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
-            <element signature="e#0#27172#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="620" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-zh/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/explorer/ChoosePDFActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="3060">
+        <state vertical-scroll-proportion="-1.2857143" vertical-offset="1208" max-vertical-offset="2470">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#1451#1476#0" expanded="true" />
-            <element signature="e#1501#1523#0" expanded="true" />
-            <element signature="e#1614#1641#0" expanded="true" />
-            <element signature="e#2272#4430#0" expanded="true" />
-            <element signature="e#2480#2528#0" expanded="true" />
-            <element signature="e#4425#4426#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/pdf/PdfReaderActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/fragment/RecentFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="27" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.0" vertical-offset="3624" max-vertical-offset="4014">
+        <state vertical-scroll-proportion="0.29503107" vertical-offset="0" max-vertical-offset="2622">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/pdf/MuPDFCore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5400">
+        <state vertical-scroll-proportion="0.7375776" vertical-offset="1463" max-vertical-offset="4009">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditEventFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7123288" vertical-offset="3560" max-vertical-offset="4826">
+          <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/mupdf.c">
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/EventListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="43524">
+        <state vertical-scroll-proportion="0.17351598" vertical-offset="0" max-vertical-offset="1767">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/Core.mk">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_doit_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1121">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/fragment_slide_right_enter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3537234" vertical-offset="0" max-vertical-offset="752">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/Application.mk">
+    <entry file="file://$PROJECT_DIR$/res/anim/fragment_slide_right_exit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="900">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/Android.mk">
+    <entry file="file://$PROJECT_DIR$/res/anim/fragment_slide_left_exit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="572" selection-end="572" vertical-scroll-proportion="0.18387909" vertical-offset="377" max-vertical-offset="774">
+        <state vertical-scroll-proportion="0.1263298" vertical-offset="0" max-vertical-offset="752">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/fragment_slide_left_enter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40425533" vertical-offset="0" max-vertical-offset="752">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="2204">
+          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3344#3345#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bmob/im/demo/ui/FragmentBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="3876">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/DoitMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1153" max-vertical-offset="2090">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/DayTaskFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="2242">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#1373#1730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yong/doit/ui/widget/EditTaskFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63414633" vertical-offset="342" max-vertical-offset="2071">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -933,6 +1660,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -944,7 +1672,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -968,7 +1696,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Android API 15 Platform</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -980,7 +1708,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>ormlite-core-4.42</last-edited>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

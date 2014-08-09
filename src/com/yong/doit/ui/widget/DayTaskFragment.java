@@ -9,14 +9,26 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import android.widget.AdapterView;
 import android.widget.ListView;
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 import com.yong.doit.data.bean.Task;
 import com.yong.doit.service.TaskService;
+import com.yong.doit.ui.DoitMain;
 
-public class DayTaskFragment extends BaseFragment implements OnClickListener {
+public class DayTaskFragment extends FragmentBase implements OnClickListener {
 
     List<Task> tasks;
+
+    private static DayTaskFragment instance;
+
+    public static DayTaskFragment getInstance(){
+        if(null == instance){
+            instance = new DayTaskFragment();
+        }
+        return instance;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,6 +42,16 @@ public class DayTaskFragment extends BaseFragment implements OnClickListener {
         View v = inflater.inflate(R.layout.fragment_day_tasks, null);
         // v.findViewById(R.id.addTask).setVisibility(View.GONE);
 
+        ListView lv = (ListView) v.findViewById(R.id.list_day_tasks);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (null != tasks && tasks.size() > position) {
+                    Task t = tasks.get(position);
+                    showTaskDetailDialog(t);
+                }
+            }
+        });
 //        ListView lv = (ListView) v.findViewById(R.id.list_day_tasks);
 //        lv.setSwipeMode(SettingsManager.getInstance().getSwipeMode());
 //        lv.setSwipeActionLeft(SettingsManager.getInstance().getSwipeActionLeft());
@@ -81,7 +103,7 @@ public class DayTaskFragment extends BaseFragment implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.addTask:
-                switchFragment(FRAGMENT_ADD_TASK, false);
+                switchFragment(DoitMain.FRAGMENT_ADD_DAY_TASK, false);
                 break;
 
             default:

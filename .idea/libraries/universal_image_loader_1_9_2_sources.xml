@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="universal-image-loader-1.9.2_sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/universal-image-loader-1.9.2_sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/universal-image-loader-1.9.2_sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -8,11 +8,11 @@ import java.sql.SQLException;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.bmob.im.demo.CustomApplcation;
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
-import com.yong.doit.app.DoApplication;
 import com.yong.doit.data.bean.Event;
 import com.yong.doit.data.bean.ProgressIdentify;
 import com.yong.doit.data.bean.Task;
@@ -45,7 +45,7 @@ public class DataHelper extends OrmLiteSqliteOpenHelper {
      */
     public static DataHelper getInstance() {
         if (null == dataHelper)
-            dataHelper = new DataHelper(DoApplication.getInstance());
+            dataHelper = new DataHelper(CustomApplcation.getInstance());
         return dataHelper;
     }
 

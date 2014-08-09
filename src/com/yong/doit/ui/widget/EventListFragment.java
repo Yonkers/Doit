@@ -13,11 +13,12 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 import com.yong.doit.data.bean.Event;
 import com.yong.doit.service.EventService;
 
-public class EventListFragment extends BaseFragment implements OnClickListener, OnItemClickListener {
+public class EventListFragment extends FragmentBase implements OnClickListener, OnItemClickListener {
 
     private List<Event> events;
 
@@ -77,7 +78,7 @@ public class EventListFragment extends BaseFragment implements OnClickListener, 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.addEvent:
-                switchFragment(FRAGMENT_ADD_EVENT, false);
+//                switchFragment(FRAGMENT_ADD_EVENT, false);
                 break;
 
             default:

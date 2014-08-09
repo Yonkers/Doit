@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/Bmob_IMSDK_V1.0.9_Demo.iml" filepath="$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/Bmob_IMSDK_V1.0.9_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Doit.iml" filepath="$PROJECT_DIR$/Doit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xUtils/library/library.iml" filepath="$PROJECT_DIR$/../xUtils/library/library.iml" />
     </modules>
   </component>
 </project>

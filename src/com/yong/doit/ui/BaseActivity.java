@@ -7,11 +7,14 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
-import com.yong.doit.ui.widget.BaseFragment;
+import android.widget.Toast;
+import com.bmob.im.demo.ui.ActivityBase;
+import com.bmob.im.demo.ui.FragmentBase;
+import com.yong.doit.R;
 
-public abstract class BaseActivity extends Activity {
+public abstract class BaseActivity extends ActivityBase {
 
-    protected BaseFragment currentFragment;
+    protected FragmentBase currentFragment;
 
     protected int type;
 
@@ -20,12 +23,12 @@ public abstract class BaseActivity extends Activity {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
-                case BaseFragment.WHAT_SWITCH_FRAGMENT:
+                case FragmentBase.WHAT_SWITCH_FRAGMENT:
                     int type = msg.arg1;
                     boolean refresh = (Boolean) msg.obj;
                     switchFragment(type, refresh);
                     break;
-                case BaseFragment.WHAT_FINISH_FRAGMENT:
+                case FragmentBase.WHAT_FINISH_FRAGMENT:
                     int t = msg.arg1;
                     finishFragment(t);
                     break;
@@ -48,8 +51,9 @@ public abstract class BaseActivity extends Activity {
 
                 hideFragment(currentFragment);
 
-                FragmentTransaction ts = getFragmentManager()
-                        .beginTransaction();
+                FragmentTransaction ts = getFragmentManager().beginTransaction();
+                ts.setCustomAnimations(R.anim.fragment_slide_left_enter,R.anim.fragment_slide_left_exit);
+
                 currentFragment = getFragment(type);
 
                 if (currentFragment.isBaseHandlerNull()) {
@@ -74,8 +78,8 @@ public abstract class BaseActivity extends Activity {
 
     private void hideFragment(Fragment fragment) {
         if (null == fragment) return;
-        FragmentTransaction ts = getFragmentManager()
-                .beginTransaction();
+        FragmentTransaction ts = getFragmentManager().beginTransaction();
+        ts.setCustomAnimations(R.anim.fragment_slide_left_enter,R.anim.fragment_slide_left_exit);
         if (null != ts) {
             ts.hide(fragment);
             ts.commit();
@@ -90,8 +94,7 @@ public abstract class BaseActivity extends Activity {
     protected void finishFragment(int type) {
         if (this.type == type) {
             if (null != currentFragment) {
-                FragmentTransaction ts = getFragmentManager()
-                        .beginTransaction();
+                FragmentTransaction ts = getFragmentManager().beginTransaction();
                 ts.remove(currentFragment);
                 ts.commit();
             }
@@ -100,11 +103,15 @@ public abstract class BaseActivity extends Activity {
 
     protected abstract int getFragmentContainerId();
 
-    protected abstract BaseFragment getFragment(int type);
+    protected abstract FragmentBase getFragment(int type);
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+    }
+
+    protected void toast(String toast){
+        Toast.makeText(this,toast,Toast.LENGTH_SHORT).show();
     }
 
 }

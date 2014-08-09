@@ -7,10 +7,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 import com.yong.doit.explorer.ChoosePDFActivity;
 
-public class SettingFragment extends BaseFragment implements OnClickListener {
+public class SettingFragment extends FragmentBase implements OnClickListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

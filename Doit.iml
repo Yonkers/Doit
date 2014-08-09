@@ -2,22 +2,25 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android" name="Android">
-      <configuration>
-        <option name="UPDATE_PROPERTY_FILES" value="true" />
-      </configuration>
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="android-support-v4" level="project" />
-    <orderEntry type="library" name="ormlite-android-4.42" level="project" />
-    <orderEntry type="library" name="ormlite-core-4.42" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="module" module-name="library" />
+    <orderEntry type="library" name="baidumapapi_v3_0_0 (2)" level="project" />
+    <orderEntry type="library" name="Bmob_IMSDK_v1.0.9beta (2)" level="project" />
+    <orderEntry type="library" name="bmob_v3.1.8 (2)" level="project" />
+    <orderEntry type="library" name="locSDK_4.2 (2)" level="project" />
+    <orderEntry type="library" name="photoview-library-1.2.2 (2)" level="project" />
+    <orderEntry type="library" name="universal-image-loader-1.9.2_sources (2)" level="project" />
   </component>
 </module>
 

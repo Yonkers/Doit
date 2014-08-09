@@ -10,10 +10,11 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 import com.yong.doit.data.bean.RoadMapItem;
 
-public class CourseRoadMapFragment extends BaseFragment {
+public class CourseRoadMapFragment extends FragmentBase {
 
 	private CourseRoadMapAdapter adapter;
 	

@@ -4,7 +4,7 @@ import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import com.yong.doit.app.DoApplication;
+import com.bmob.im.demo.CustomApplcation;
 import com.yong.doit.notify.TaskTimeReceiver;
 
 import java.util.Date;
@@ -28,10 +28,10 @@ public class NotifyService {
     }
 
     public void startCheckTask(){
-        alarm=(AlarmManager) DoApplication.getInstance().getSystemService(Context.ALARM_SERVICE);
-        Intent intent =new Intent(DoApplication.getInstance(), TaskTimeReceiver.class);
+        alarm=(AlarmManager) CustomApplcation.getInstance().getSystemService(Context.ALARM_SERVICE);
+        Intent intent =new Intent(CustomApplcation.getInstance(), TaskTimeReceiver.class);
         intent.setAction(ACTION);
-        PendingIntent sender= PendingIntent.getBroadcast(DoApplication.getInstance(), 0, intent, 0);
+        PendingIntent sender= PendingIntent.getBroadcast(CustomApplcation.getInstance(), 0, intent, 0);
         //早上9点
         Date startDate = new Date();
         //当天早上9点开始执行任务,重复执行是从第二天开始执行早上9点

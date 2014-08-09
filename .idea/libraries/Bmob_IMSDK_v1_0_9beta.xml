@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Bmob_IMSDK_v1.0.9beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/Bmob_IMSDK_v1.0.9beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

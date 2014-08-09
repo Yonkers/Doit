@@ -6,30 +6,17 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 
-public class MenuFragment extends BaseFragment {
+public class MenuFragment extends FragmentBase {
 
     private OnClickListener onClickListener = new OnClickListener() {
 
         @Override
         public void onClick(View v) {
             switch (v.getId()) {
-                case R.id.menuDayTasks:
-                    switchFragment(BaseFragment.FRAGMENT_DAY_TASKS, true);
-                    break;
-                case R.id.menuAllEvents:
-                    switchFragment(BaseFragment.FRAGMENT_EVENT_LIST, true);
-                    break;
-                case R.id.menuMyHorner:
-                    switchFragment(BaseFragment.FRAGMENT_DAY_TASKS, true);
-                    break;
-                case R.id.menuSetting:
-                    switchFragment(BaseFragment.FRAGMENT_SETTING, true);
-                    break;
-                case R.id.menuCourseList:
-                	switchFragment(BaseFragment.FRAGMENT_COURSE_ROAD_MAP, true);
-                	break;
+
                 default:
                     break;
             }

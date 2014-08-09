@@ -25,6 +25,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.lidroid.xutils.ViewUtils;
+import com.lidroid.xutils.view.annotation.ViewInject;
 import com.yong.doit.R;
 
 /**
@@ -39,6 +41,8 @@ public class PdfReaderActivity extends Activity implements OnPageChangeListener,
 	private ViewType viewType;
 
 	private ImageView imgPdfPage;
+
+    @ViewInject(R.id.viewPager)
 	private ViewPager viewPager;
 
 	private MuPDFCore core;
@@ -54,17 +58,18 @@ public class PdfReaderActivity extends Activity implements OnPageChangeListener,
 	private static int h;
 
 	private DrawPageTask drawPageTask;
+
+    @ViewInject(R.id.btn_fix)
 	private Button btnFix;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pdf_reader);
+        ViewUtils.inject(this);
 //		 imgPdfPage = (ImageView) findViewById(R.id.imgPdfPage);
-		viewPager = (ViewPager) findViewById(R.id.viewPager);
 		viewPager.setOnPageChangeListener(this);
 		
-		btnFix = (Button) findViewById(R.id.btn_fix);
 		btnFix.setOnClickListener(this);
 		
 		Intent intent = getIntent();

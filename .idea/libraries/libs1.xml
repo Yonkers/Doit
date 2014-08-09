@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/locSDK_4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/bmob_v3.1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/photoview-library-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/baidumapapi_v3_0_0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/universal-image-loader-1.9.2_sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/Bmob_IMSDK_v1.0.9beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

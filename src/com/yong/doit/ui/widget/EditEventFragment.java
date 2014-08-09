@@ -27,6 +27,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TimePicker;
 
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 import com.yong.doit.app.EventMode;
 import com.yong.doit.app.PeriodType;
@@ -36,7 +37,7 @@ import com.yong.doit.service.EventService;
 import com.yong.doit.service.ProgressIdentifyService;
 import com.yong.doit.ui.widget.AddProgressIdentifyFragment.OnDismissListener;
 
-public class EditEventFragment extends BaseFragment implements OnClickListener {
+public class EditEventFragment extends FragmentBase implements OnClickListener {
 
     private List<ProgressIdentify> identifies;
 
@@ -245,7 +246,7 @@ public class EditEventFragment extends BaseFragment implements OnClickListener {
         EventService.getInstance().save(event);
         UIUtil.showToast(getActivity(), "saved: " + event.getName());
 
-        switchFragment(FRAGMENT_EVENT_LIST, true);
+//        switchFragment(FRAGMENT_EVENT_LIST, true);
     }
 
     @Override
@@ -264,16 +265,7 @@ public class EditEventFragment extends BaseFragment implements OnClickListener {
         return false;
     }
 
-    @Override
-    public boolean dispatchKeyEvent(KeyEvent event) {
-        if (event.getAction() == KeyEvent.ACTION_UP) {
-            if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
-                switchFragment(FRAGMENT_EVENT_LIST, false);
-                return true;
-            }
-        }
-        return super.dispatchKeyEvent(event);
-    }
+
 
     private void showDatePicker(final Button et) {
         Calendar c = Calendar.getInstance();

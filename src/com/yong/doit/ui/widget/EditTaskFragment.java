@@ -14,13 +14,26 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.bmob.im.demo.ui.FragmentBase;
 import com.yong.doit.R;
 import com.yong.doit.data.bean.Event;
 import com.yong.doit.data.bean.Task;
 import com.yong.doit.service.EventService;
 import com.yong.doit.service.TaskService;
+import com.yong.doit.ui.DoitMain;
 
-public class EditTaskFragment extends BaseFragment implements OnClickListener {
+public class EditTaskFragment extends FragmentBase implements OnClickListener {
+
+    private static EditTaskFragment instance;
+
+    public static EditTaskFragment getInstance(){
+        if(null == instance){
+            instance = new EditTaskFragment();
+
+        }
+        return instance;
+    }
+
     List<Event> events;
 
     @Override
@@ -97,19 +110,10 @@ public class EditTaskFragment extends BaseFragment implements OnClickListener {
 
         UIUtil.showToast(getActivity(), "saved: " + task.getName());
 
-        switchFragment(FRAGMENT_DAY_TASKS, true);
+        switchFragment(DoitMain.FRAGMENT_DAY_TASKS, true);
     }
 
-    @Override
-    public boolean dispatchKeyEvent(KeyEvent event) {
-        if (event.getAction() == KeyEvent.ACTION_UP) {
-            if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
-                switchFragment(FRAGMENT_DAY_TASKS, false);
-                return true;
-            }
-        }
-        return super.dispatchKeyEvent(event);
-    }
+
 
     @Override
     public void refreshFragment() {

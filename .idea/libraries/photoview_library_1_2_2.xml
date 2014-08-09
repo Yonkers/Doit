@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="photoview-library-1.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Bmob_IMSDK_V1.0.9/Bmob_IMSDK_V1.0.9_Demo/libs/photoview-library-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
